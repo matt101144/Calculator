@@ -16,7 +16,6 @@ body{
     flex-direction: column;
     width: 500px;
     height: 620px;
-    border: solid green 2px;
     background-color: black;
     
 }
@@ -53,7 +52,8 @@ button{
 }
 .orangeequal{
     background-color: orange;
-
+    grid-column: 4/5;
+    
 }
 button:hover{
     background-color: hsl(0, 0%, 35%);
